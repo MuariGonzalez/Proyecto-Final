@@ -63,3 +63,23 @@ header {
 .card{
     margin: 20px
 }
+
+.cajas{
+    margin-left: 100px;
+}
+
+.h3produc{
+    margin-left: 20px;
+}
+
+.localizacion{
+    margin: 30rem
+}
+
+.contact{
+    border: 3px black;
+    margin: 2rem;
+    font-size: medium;
+
+
+}
