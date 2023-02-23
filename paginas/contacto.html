@@ -14,86 +14,106 @@
 
 <body>
     <header>
-        <img src="../imagenes/logo.jpg" alt="logo" class="logo">
-        <h1 class="tit">AfroditaSexShop</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">AfroditaSexShop</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-              </div>
+                <img src="../imagenes/logo.jpg" alt="logo" class="logo img-fluid">
+                <a class="navbar-brand" href="/index.html">AfroditaSexShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/paginas/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/paginas/envios.html">Politicas de Envio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/paginas/tupper.html">Tupper Sex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
-    <main>
+    <main class="formulario">
         <h2 class="subt">Contactate con nosotros</h2>
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4 position-relative">
-                <label for="validationTooltip01" class="form-label">First name</label>
-                <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                <label for="validationTooltip01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationTooltip01" required>
                 <div class="valid-tooltip">
                     Looks good!
                 </div>
             </div>
             <div class="col-md-4 position-relative">
-                <label for="validationTooltip02" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationTooltip02" required>
                 <div class="valid-tooltip">
                     Looks good!
                 </div>
             </div>
             <div class="col-md-4 position-relative">
-                <label for="validationTooltipUsername" class="form-label">Username</label>
+                <label for="validationTooltipUsername" class="form-label">Nombre de Usuario</label>
                 <div class="input-group has-validation">
                     <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
                     <input type="text" class="form-control" id="validationTooltipUsername"
                         aria-describedby="validationTooltipUsernamePrepend" required>
                     <div class="invalid-tooltip">
-                        Please choose a unique and valid username.
+                        Coloque un nombre de usuario válido.
                     </div>
                 </div>
             </div>
             <div class="col-md-6 position-relative">
-                <label for="validationTooltip03" class="form-label">City</label>
+                <label for="validationTooltip03" class="form-label">Localidad</label>
                 <input type="text" class="form-control" id="validationTooltip03" required>
                 <div class="invalid-tooltip">
-                    Please provide a valid city.
+                    Por favor coloque una localidad válida.
                 </div>
             </div>
             <div class="col-md-3 position-relative">
-                <label for="validationTooltip04" class="form-label">State</label>
+                <label for="validationTooltip04" class="form-label">Departamento</label>
                 <select class="form-select" id="validationTooltip04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>Mendoza</option>
+                    <option selected disabled value="">Elegir...</option>
+                    <option>General Alvear</option>
+                    <option>Godoy Cruz</option>
+                    <option>Guaymallen</option>
+                    <option>Junín</option>
+                    <option>La Paz</option>
                     <option>Las Heras</option>
+                    <option>Luján de Cuyo</option>
+                    <option>Maipú</option>
+                    <option>Malargüe</option>
+                    <option>Mendoza (capital)</option>
+                    <option>Rivadavia</option>
+                    <option>San Carlos</option>
+                    <option>San Martín</option>
+                    <option>San Rafael</option>
+                    <option>Santa Rosa</option>
+                    <option>Tunuyán</option>
+                    <option>Tupungato</option>
                 </select>
                 <div class="invalid-tooltip">
-                    Please select a valid state.
+                    Por favor selecciona un departamento válido.
                 </div>
-            </div>
-
-            <textarea class="form-control" placeholder="Dejanos tu consulta" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Dejanos tu consulta</label>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
-            </div>
+                </div>
+                     <label for="floatingTextarea">Consulta</label>
+                    <textarea class="form-control container-fluid position-relative col-md-3" placeholder="Dejanos tu consulta" id="floatingTextarea"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
         </form>
 
     </main>
