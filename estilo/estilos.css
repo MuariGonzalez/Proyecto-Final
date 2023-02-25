@@ -44,7 +44,7 @@ header {
 }
 
 .text {
-    margin: 50px;
+    margin-left: 50px;
     height: 60px;
     width: 80%;
     font-family: Arial;
@@ -66,6 +66,7 @@ header {
 
 .cajas{
     margin-left: 100px;
+    background: #ed778d;
 }
 
 .h3produc{
@@ -73,13 +74,16 @@ header {
 }
 
 .localizacion{
-    margin: 30rem
+    margin-left: 30%
 }
 
 .contact{
     border: 3px black;
     margin: 2rem;
     font-size: medium;
+    
+}
 
-
+.card{
+    background-color: #ed778d;
 }
