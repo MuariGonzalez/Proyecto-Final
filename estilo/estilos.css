@@ -6,6 +6,7 @@
 
 body {
     background-color: #ed778d;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -29,7 +30,7 @@ a {
 }
 
 .logo {
-    height: 150px;
+    height: 100px;
     border-radius: 50px;
     margin: 10px;
     
@@ -147,3 +148,10 @@ header {
     height:500px;
 }
 
+@media screen and (max-width: 767px) {
+    .logo {
+        height: 50px;
+
+    }
+    
+}
