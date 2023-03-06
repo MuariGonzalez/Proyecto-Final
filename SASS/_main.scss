@@ -1,0 +1,76 @@
+.text {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80%;
+	font-family: $font-family_1;
+	font-size: 20px;
+}
+.subtitulo {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.subt {
+	margin: 20px;
+	font-size: 35px;
+}
+.subt1 {
+	margin: 10px;
+	font-size: 25px;
+}
+.formulario {
+	margin-left: 10px;
+}
+.card {
+	background-color: $background-color_1;
+	margin: 20px;
+	display: block;
+	background-color: $background-color_2;
+	width: 18rem;
+}
+.cajas {
+	background: #ed778d;
+}
+.h3produc {
+	margin-left: 20px;
+}
+.localizacion {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.contact {
+	height: 30px;
+	width: 100%;
+	border: 10px black;
+	margin: 2rem;
+	font-size: large;
+}
+.carrucel {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin-left: 10%;
+}
+.banner {
+	display: flex;
+	flex-wrap: wrap;
+}
+.banner1 {
+	width: 300px;
+	height: 300px;
+}
+.banner2 {
+	width: 300px;
+	height: 300px;
+}
+.imagenes-tarjetas {
+	height: 300px;
+}
+.card-img-top {
+	height: 300px;
+}
+.img-carr {
+	height: 450px;
+}
