@@ -23,7 +23,7 @@
 	margin-left: 10px;
 }
 .card {
-	background-color:#ed778d;
+	background-color: $background-color_1;
 	margin: 20px;
 	display: block;
 	width: 18rem;
@@ -48,6 +48,7 @@
 	display: flex;
 	justify-content: center;
 	width: 80%;
+	height: 100%;
 	margin-left: 10%;
 }
 .banner {
@@ -70,4 +71,19 @@
 }
 .img-carr {
 	height: 450px;
+}
+.banner{
+	display: flex;
+	justify-content: space-between;
+	
+	.banner1{
+		margin-left: 10%;
+		max-width: 500px;
+		max-height: 500px;
+	}
+	.banner2{
+		margin-right: 10%;
+		max-width: 500px;
+		max-height: 500px;
+	}
 }

@@ -1,0 +1,37 @@
+@mixin tamaños ($size,$margin) {
+    font-size: $size;
+    margin: $margin;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+    
+    
+    .iconos{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        .icon-facebook{
+            @include tamaños(20px,10px )
+        }
+
+        .icon-instagram{
+            @include tamaños(20px,10px )
+        }
+
+        .icon-truck{
+            @include tamaños(20px,10px)
+        }
+
+        .icon-envelope-open-o{
+            @include tamaños(20px,10px )
+        }
+    }
+}
+
